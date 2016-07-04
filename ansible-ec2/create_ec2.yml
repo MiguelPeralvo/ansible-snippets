@@ -1,0 +1,13 @@
+- hosts: localhost  
+  connection: local  
+  gather_facts: no
+  user: root
+  #pre_tasks:
+  #  - include_vars: vars/{{ type | default('main')}}".yml
+  vars_files:
+    - vars/main.yml
+  #  - "{{ vars_file_name | default('vars/main_btcml.yml')}}"
+  vars:
+  roles:
+    - provision-ec2 
+  

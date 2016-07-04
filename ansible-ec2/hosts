@@ -1,0 +1,4 @@
+[localhost]
+127.0.0.1 ansible_python_interpreter=~/anaconda/envs/python2/bin/python
+
+[remoteservers]

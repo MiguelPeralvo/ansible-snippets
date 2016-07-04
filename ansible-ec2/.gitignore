@@ -1,2 +1,3 @@
 vars/main.yml
 create_ec2.retry
+run_ansible.sh
