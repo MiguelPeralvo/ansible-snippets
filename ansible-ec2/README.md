@@ -17,7 +17,7 @@ These modified playbooks are intended for practice and learning. They are not ge
 ```
 ansible-playbook -i hosts create_ec2.yml [variables override] 
 
-###variables override
+[variables override]
 -e "variable1_to_override_name:variable1_to_override_name"
 -e "variable2_to_override_name:variable2_to_override_name"
 ...
