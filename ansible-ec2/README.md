@@ -3,6 +3,7 @@
 Variation of the ec2 provisioning playbooks/roles examples provided by Allan Denot in:
 
 [Blog](http://allandenot.com/devops/2015/01/31/provisioning-ec2-hosts-with-ansible.html)
+
 [GitHub](https://github.com/adenot/blog-ansible-provision-ec2)
 
 These modified playbooks are intended for practice and learning. They are not generic/robust enough for production usage.
