@@ -8,6 +8,10 @@ Variation of the ec2 provisioning playbooks/roles examples provided by Allan Den
 
 These modified playbooks are intended for practice and learning. They are not generic/robust enough for production usage.
 
+#REQUIREMENTS
+
+The AWS boto library will require credentials to be set. There are different alternatives. A useful explanation can be found [here](http://boto.cloudhackers.com/en/latest/boto_config_tut.html).
+
 #USAGE
 
 1. Copy vars/main.yml.template into vars/main.yml
@@ -30,3 +34,6 @@ ansible-playbook -i hosts create_ec2.yml
 ansible-playbook -i hosts create_ec2.yml -e "ec2_tag_Name=etherchainmlx3" -e "ec2_count_tag='name=etherchainmlx3'" -e "ec2_keypair="private_key" -e "ec2_security_group=sg-c43aa412" -e "vpc_subnet_id="subnet-3a3a7622"
 ```
 
+#WARNING
+
+This [issue](https://github.com/MiguelPeralvo/ansible-snippets/issues/1), regarding the creation of duplicate instances, is currently open.
