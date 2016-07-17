@@ -5,8 +5,8 @@
   #pre_tasks:
   #  - include_vars: vars/{{ type | default('main')}}".yml
   vars_files:
-    - vars/main.yml
-  #  - "{{ vars_file_name | default('vars/main_btcml.yml')}}"
+  #  - vars/main.yml
+    - "{{ vars_file_name | default('vars/main.yml')}}"
   vars:
   roles:
     - provision-ec2 

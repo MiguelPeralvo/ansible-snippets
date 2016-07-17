@@ -1,0 +1,13 @@
+assign_public_ip: false
+ec2_image: "ami-ce9087a4"
+ec2_keypair: "$private_key_pair"
+ec2_region: "us-east-1"
+ec2_zone: "us-east-1c"
+ec2_security_group: "$private_security_group"
+ec2_instance_type: "m4.4xlarge"
+exact_count: "1"
+ec2_count_tag: "name=etherchainml1"
+ec2_tag_Name: "etherchainml1"
+ec2_tag_Type: "etherchain"
+ec2_volume_size: "100"
+vpc_subnet_id: "$private_subnet"

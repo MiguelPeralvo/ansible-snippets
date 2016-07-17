@@ -1,3 +1,4 @@
 vars/main.yml
+vars/main.64GB.yml
 create_ec2.retry
 run_ansible.sh
